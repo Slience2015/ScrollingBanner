@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0503C38D1D691E3500E1CC49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C38C1D691E3500E1CC49 /* main.m */; };
+		0503C3901D691E3500E1CC49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C38F1D691E3500E1CC49 /* AppDelegate.m */; };
+		0503C3931D691E3500E1CC49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C3921D691E3500E1CC49 /* ViewController.m */; };
+		0503C3961D691E3500E1CC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3941D691E3500E1CC49 /* Main.storyboard */; };
+		0503C3981D691E3500E1CC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3971D691E3500E1CC49 /* Assets.xcassets */; };
+		0503C39B1D691E3500E1CC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3991D691E3500E1CC49 /* LaunchScreen.storyboard */; };
+		0503C3A61D691E3500E1CC49 /* ScrollingBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C3A51D691E3500E1CC49 /* ScrollingBannerTests.m */; };
+		0503C3B11D691E3600E1CC49 /* ScrollingBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C3B01D691E3600E1CC49 /* ScrollingBannerUITests.m */; };
+		0503C3C31D69202600E1CC49 /* SWSrollViewReuseItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C3C01D69202600E1CC49 /* SWSrollViewReuseItemView.m */; };
+		0503C3C41D69202600E1CC49 /* SWScrollPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0503C3C21D69202600E1CC49 /* SWScrollPromptView.m */; };
+		0503C3C91D69284600E1CC49 /* home_fulienvelope_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3C51D69284600E1CC49 /* home_fulienvelope_btn@2x.png */; };
+		0503C3CA1D69284600E1CC49 /* home_fulienvelope_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3C61D69284600E1CC49 /* home_fulienvelope_btn@3x.png */; };
+		0503C3CB1D69284600E1CC49 /* tabbar_village@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3C71D69284600E1CC49 /* tabbar_village@2x.png */; };
+		0503C3CC1D69284600E1CC49 /* tabbar_village@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0503C3C81D69284600E1CC49 /* tabbar_village@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0503C3A21D691E3500E1CC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0503C3801D691E3500E1CC49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0503C3871D691E3500E1CC49;
+			remoteInfo = ScrollingBanner;
+		};
+		0503C3AD1D691E3600E1CC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0503C3801D691E3500E1CC49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0503C3871D691E3500E1CC49;
+			remoteInfo = ScrollingBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0503C3881D691E3500E1CC49 /* ScrollingBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0503C38C1D691E3500E1CC49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0503C38E1D691E3500E1CC49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0503C38F1D691E3500E1CC49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0503C3911D691E3500E1CC49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0503C3921D691E3500E1CC49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0503C3951D691E3500E1CC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0503C3971D691E3500E1CC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0503C39A1D691E3500E1CC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0503C39C1D691E3500E1CC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0503C3A11D691E3500E1CC49 /* ScrollingBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingBannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0503C3A51D691E3500E1CC49 /* ScrollingBannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingBannerTests.m; sourceTree = "<group>"; };
+		0503C3A71D691E3500E1CC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0503C3AC1D691E3600E1CC49 /* ScrollingBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0503C3B01D691E3600E1CC49 /* ScrollingBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingBannerUITests.m; sourceTree = "<group>"; };
+		0503C3B21D691E3600E1CC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0503C3BF1D69202600E1CC49 /* SWSrollViewReuseItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSrollViewReuseItemView.h; sourceTree = "<group>"; };
+		0503C3C01D69202600E1CC49 /* SWSrollViewReuseItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSrollViewReuseItemView.m; sourceTree = "<group>"; };
+		0503C3C11D69202600E1CC49 /* SWScrollPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWScrollPromptView.h; sourceTree = "<group>"; };
+		0503C3C21D69202600E1CC49 /* SWScrollPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWScrollPromptView.m; sourceTree = "<group>"; };
+		0503C3C51D69284600E1CC49 /* home_fulienvelope_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_fulienvelope_btn@2x.png"; sourceTree = "<group>"; };
+		0503C3C61D69284600E1CC49 /* home_fulienvelope_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_fulienvelope_btn@3x.png"; sourceTree = "<group>"; };
+		0503C3C71D69284600E1CC49 /* tabbar_village@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_village@2x.png"; sourceTree = "<group>"; };
+		0503C3C81D69284600E1CC49 /* tabbar_village@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_village@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0503C3851D691E3500E1CC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C39E1D691E3500E1CC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C3A91D691E3600E1CC49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0503C37F1D691E3500E1CC49 = {
+			isa = PBXGroup;
+			children = (
+				0503C38A1D691E3500E1CC49 /* ScrollingBanner */,
+				0503C3A41D691E3500E1CC49 /* ScrollingBannerTests */,
+				0503C3AF1D691E3600E1CC49 /* ScrollingBannerUITests */,
+				0503C3891D691E3500E1CC49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0503C3891D691E3500E1CC49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0503C3881D691E3500E1CC49 /* ScrollingBanner.app */,
+				0503C3A11D691E3500E1CC49 /* ScrollingBannerTests.xctest */,
+				0503C3AC1D691E3600E1CC49 /* ScrollingBannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0503C38A1D691E3500E1CC49 /* ScrollingBanner */ = {
+			isa = PBXGroup;
+			children = (
+				0503C3BE1D691F6000E1CC49 /* BannerViews */,
+				0503C3C51D69284600E1CC49 /* home_fulienvelope_btn@2x.png */,
+				0503C3C61D69284600E1CC49 /* home_fulienvelope_btn@3x.png */,
+				0503C3C71D69284600E1CC49 /* tabbar_village@2x.png */,
+				0503C3C81D69284600E1CC49 /* tabbar_village@3x.png */,
+				0503C38E1D691E3500E1CC49 /* AppDelegate.h */,
+				0503C38F1D691E3500E1CC49 /* AppDelegate.m */,
+				0503C3911D691E3500E1CC49 /* ViewController.h */,
+				0503C3921D691E3500E1CC49 /* ViewController.m */,
+				0503C3941D691E3500E1CC49 /* Main.storyboard */,
+				0503C3971D691E3500E1CC49 /* Assets.xcassets */,
+				0503C3991D691E3500E1CC49 /* LaunchScreen.storyboard */,
+				0503C39C1D691E3500E1CC49 /* Info.plist */,
+				0503C38B1D691E3500E1CC49 /* Supporting Files */,
+			);
+			path = ScrollingBanner;
+			sourceTree = "<group>";
+		};
+		0503C38B1D691E3500E1CC49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0503C38C1D691E3500E1CC49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0503C3A41D691E3500E1CC49 /* ScrollingBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0503C3A51D691E3500E1CC49 /* ScrollingBannerTests.m */,
+				0503C3A71D691E3500E1CC49 /* Info.plist */,
+			);
+			path = ScrollingBannerTests;
+			sourceTree = "<group>";
+		};
+		0503C3AF1D691E3600E1CC49 /* ScrollingBannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0503C3B01D691E3600E1CC49 /* ScrollingBannerUITests.m */,
+				0503C3B21D691E3600E1CC49 /* Info.plist */,
+			);
+			path = ScrollingBannerUITests;
+			sourceTree = "<group>";
+		};
+		0503C3BE1D691F6000E1CC49 /* BannerViews */ = {
+			isa = PBXGroup;
+			children = (
+				0503C3BF1D69202600E1CC49 /* SWSrollViewReuseItemView.h */,
+				0503C3C01D69202600E1CC49 /* SWSrollViewReuseItemView.m */,
+				0503C3C11D69202600E1CC49 /* SWScrollPromptView.h */,
+				0503C3C21D69202600E1CC49 /* SWScrollPromptView.m */,
+			);
+			path = BannerViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0503C3871D691E3500E1CC49 /* ScrollingBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0503C3B51D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBanner" */;
+			buildPhases = (
+				0503C3841D691E3500E1CC49 /* Sources */,
+				0503C3851D691E3500E1CC49 /* Frameworks */,
+				0503C3861D691E3500E1CC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollingBanner;
+			productName = ScrollingBanner;
+			productReference = 0503C3881D691E3500E1CC49 /* ScrollingBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0503C3A01D691E3500E1CC49 /* ScrollingBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0503C3B81D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBannerTests" */;
+			buildPhases = (
+				0503C39D1D691E3500E1CC49 /* Sources */,
+				0503C39E1D691E3500E1CC49 /* Frameworks */,
+				0503C39F1D691E3500E1CC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0503C3A31D691E3500E1CC49 /* PBXTargetDependency */,
+			);
+			name = ScrollingBannerTests;
+			productName = ScrollingBannerTests;
+			productReference = 0503C3A11D691E3500E1CC49 /* ScrollingBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0503C3AB1D691E3600E1CC49 /* ScrollingBannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0503C3BB1D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBannerUITests" */;
+			buildPhases = (
+				0503C3A81D691E3600E1CC49 /* Sources */,
+				0503C3A91D691E3600E1CC49 /* Frameworks */,
+				0503C3AA1D691E3600E1CC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0503C3AE1D691E3600E1CC49 /* PBXTargetDependency */,
+			);
+			name = ScrollingBannerUITests;
+			productName = ScrollingBannerUITests;
+			productReference = 0503C3AC1D691E3600E1CC49 /* ScrollingBannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0503C3801D691E3500E1CC49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = CANG;
+				TargetAttributes = {
+					0503C3871D691E3500E1CC49 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					0503C3A01D691E3500E1CC49 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0503C3871D691E3500E1CC49;
+					};
+					0503C3AB1D691E3600E1CC49 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0503C3871D691E3500E1CC49;
+					};
+				};
+			};
+			buildConfigurationList = 0503C3831D691E3500E1CC49 /* Build configuration list for PBXProject "ScrollingBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0503C37F1D691E3500E1CC49;
+			productRefGroup = 0503C3891D691E3500E1CC49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0503C3871D691E3500E1CC49 /* ScrollingBanner */,
+				0503C3A01D691E3500E1CC49 /* ScrollingBannerTests */,
+				0503C3AB1D691E3600E1CC49 /* ScrollingBannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0503C3861D691E3500E1CC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0503C39B1D691E3500E1CC49 /* LaunchScreen.storyboard in Resources */,
+				0503C3CB1D69284600E1CC49 /* tabbar_village@2x.png in Resources */,
+				0503C3981D691E3500E1CC49 /* Assets.xcassets in Resources */,
+				0503C3C91D69284600E1CC49 /* home_fulienvelope_btn@2x.png in Resources */,
+				0503C3CA1D69284600E1CC49 /* home_fulienvelope_btn@3x.png in Resources */,
+				0503C3CC1D69284600E1CC49 /* tabbar_village@3x.png in Resources */,
+				0503C3961D691E3500E1CC49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C39F1D691E3500E1CC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C3AA1D691E3600E1CC49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0503C3841D691E3500E1CC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0503C3C31D69202600E1CC49 /* SWSrollViewReuseItemView.m in Sources */,
+				0503C3C41D69202600E1CC49 /* SWScrollPromptView.m in Sources */,
+				0503C3931D691E3500E1CC49 /* ViewController.m in Sources */,
+				0503C3901D691E3500E1CC49 /* AppDelegate.m in Sources */,
+				0503C38D1D691E3500E1CC49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C39D1D691E3500E1CC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0503C3A61D691E3500E1CC49 /* ScrollingBannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0503C3A81D691E3600E1CC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0503C3B11D691E3600E1CC49 /* ScrollingBannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0503C3A31D691E3500E1CC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0503C3871D691E3500E1CC49 /* ScrollingBanner */;
+			targetProxy = 0503C3A21D691E3500E1CC49 /* PBXContainerItemProxy */;
+		};
+		0503C3AE1D691E3600E1CC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0503C3871D691E3500E1CC49 /* ScrollingBanner */;
+			targetProxy = 0503C3AD1D691E3600E1CC49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0503C3941D691E3500E1CC49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0503C3951D691E3500E1CC49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0503C3991D691E3500E1CC49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0503C39A1D691E3500E1CC49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0503C3B31D691E3600E1CC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0503C3B41D691E3600E1CC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0503C3B61D691E3600E1CC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollingBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0503C3B71D691E3600E1CC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollingBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0503C3B91D691E3600E1CC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollingBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBanner.app/ScrollingBanner";
+			};
+			name = Debug;
+		};
+		0503C3BA1D691E3600E1CC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollingBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollingBanner.app/ScrollingBanner";
+			};
+			name = Release;
+		};
+		0503C3BC1D691E3600E1CC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollingBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollingBanner;
+			};
+			name = Debug;
+		};
+		0503C3BD1D691E3600E1CC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollingBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lst.ScrollingBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollingBanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0503C3831D691E3500E1CC49 /* Build configuration list for PBXProject "ScrollingBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0503C3B31D691E3600E1CC49 /* Debug */,
+				0503C3B41D691E3600E1CC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0503C3B51D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0503C3B61D691E3600E1CC49 /* Debug */,
+				0503C3B71D691E3600E1CC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0503C3B81D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0503C3B91D691E3600E1CC49 /* Debug */,
+				0503C3BA1D691E3600E1CC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0503C3BB1D691E3600E1CC49 /* Build configuration list for PBXNativeTarget "ScrollingBannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0503C3BC1D691E3600E1CC49 /* Debug */,
+				0503C3BD1D691E3600E1CC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0503C3801D691E3500E1CC49 /* Project object */;
+}
